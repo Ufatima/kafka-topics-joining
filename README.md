@@ -37,7 +37,7 @@ Send messages from the Producer to the first, second and third input topics by i
 
 Start the processor by invoking URL http://localhost:8082/topicsJoin/
 
-##Output 
+Output 
 To check the output run the command below.
 ```bash
 /kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic elisa-topic --property print.key=true --property print.timestamp=true
